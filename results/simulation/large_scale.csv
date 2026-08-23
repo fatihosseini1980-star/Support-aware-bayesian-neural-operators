@@ -1,0 +1,4 @@
+metric_or_target,centroid,sa_bno
+Large support,0.1885,0.1009
+Unseen circle,0.1526,0.1224
+Coherence error,0.125,4.3e-08

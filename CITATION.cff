@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this code or the accompanying results, please cite the manuscript."
+title: "SA-BNO: Support-Aware Bayesian Neural Operators for Coherent Spatio-Temporal Prediction under Change of Support"
+version: 1.0.0
+date-released: 2026-08-23
+authors:
+  - family-names: Hosseini
+    given-names: Fatemeh
+  - family-names: Karimi
+    given-names: Omid

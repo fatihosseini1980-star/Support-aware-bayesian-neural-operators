@@ -1,0 +1,4 @@
+metric,centroid_vi,sa_bno
+RMSE,0.2311,0.0708
+CRPS,0.1416,0.0619
+90% interval coverage,0.7343,0.9586
