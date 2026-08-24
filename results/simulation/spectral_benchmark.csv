@@ -1,4 +1,0 @@
-metric,centroid,postagg,sa_bno
-Large-support RMSE,0.0982,0.0349,0.0247
-Unseen disconnected RMSE,0.1217,0.0447,0.0291
-Coherence error,0.0896,,1.61e-08

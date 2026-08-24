@@ -1,3 +1,0 @@
-mode,rmse,crps,coverage90
-support-aware,0.386,0.213,0.836
-centroid-trained PostAgg,0.486,0.27,0.768

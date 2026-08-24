@@ -1,6 +1,0 @@
-target_support,centroid_rmse,sa_bno_rmse,reduction_percent
-Point,0.324,0.313,3.6
-Small,0.249,0.238,4.3
-Medium,0.171,0.143,16.8
-Large,0.24,0.076,68.5
-Unseen circle,0.197,0.1027,47.9

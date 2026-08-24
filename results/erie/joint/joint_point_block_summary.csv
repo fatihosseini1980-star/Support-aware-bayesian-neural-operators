@@ -1,4 +1,0 @@
-metric,support_aware,postagg,centroid
-shifted_block_rmse,0.399,0.439,0.505
-field_station_holdout_rmse,1.079,,1.101
-field_station_holdout_corr,0.483,,0.403

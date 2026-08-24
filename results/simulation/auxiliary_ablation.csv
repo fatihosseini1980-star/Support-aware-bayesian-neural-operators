@@ -1,4 +1,0 @@
-model,overall_rmse,rmse_h5,support_error
-Full support-consistent model,0.092,0.214,0.003
-Without explicit support operator,0.137,0.281,0.084
-Grid-based variant,0.168,0.349,0.132
