@@ -1,0 +1,2 @@
+coarse_nx,coarse_dt,fine_nx,fine_dt,initial_conditions,rmse,mae,max_abs,observation_noise_sd
+128,0.0005,256,0.00025,8,0.0018593699659076434,0.0006270140131149236,0.04067687444356455,0.03

@@ -1,0 +1,41 @@
+{
+  "experiment": "viscous_burgers",
+  "replicates": 5,
+  "domain": "periodic [0,1)",
+  "time_interval": [
+    0,
+    0.5
+  ],
+  "nu": 0.01,
+  "initial_condition": "sum_{k=1}^5 a_k sin(2pi k s)+b_k cos(2pi k s)",
+  "initial_coefficient_variance": "Var(a_k)=Var(b_k)=0.55^2/k^2",
+  "solver": "periodic centered finite differences + RK4",
+  "nx": 128,
+  "dt": 0.0005,
+  "retained_times": 21,
+  "noise_sd": 0.03,
+  "training_initial_conditions": 110,
+  "training_observations": 6500,
+  "test_initial_conditions": 45,
+  "test_per_support": 240,
+  "training_support_widths": {
+    "point": 0,
+    "small": 0.04,
+    "medium": 0.12,
+    "large": 0.28
+  },
+  "training_support_probabilities": [
+    0.1,
+    0.2,
+    0.3,
+    0.4
+  ],
+  "unseen_wide_width": 0.4,
+  "unseen_union": "two intervals width 0.07 with center separation 0.29",
+  "fitted_spatial_basis": "constant + sine/cosine modes 1..16 (33 components)",
+  "architecture": "15-64-64-33 tanh; mean-field variational final layer; learned Gaussian observation sigma",
+  "epochs": 400,
+  "optimizer": "Adam",
+  "learning_rate": 0.003,
+  "kl_annealing_epochs": 100
+}

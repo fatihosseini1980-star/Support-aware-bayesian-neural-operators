@@ -1,0 +1,40 @@
+{
+  "experiment": "large_scale",
+  "replicates_per_N": 3,
+  "N_values": [
+    10000,
+    50000,
+    100000,
+    200000
+  ],
+  "epochs": 15,
+  "batch_size": 1024,
+  "input_dimension": 16,
+  "input_variance": "Var(c_j)=1/j",
+  "basis_components": 40,
+  "true_coefficient_map": "0.8*tanh + 0.25*sin + 0.10*product",
+  "true_weight_sd": 0.45,
+  "noise_sd": 0.05,
+  "training_functions": 1000,
+  "test_functions": 120,
+  "training_support_widths": [
+    0,
+    0.06,
+    0.16,
+    0.32
+  ],
+  "training_support_probabilities": [
+    0.1,
+    0.2,
+    0.3,
+    0.4
+  ],
+  "unseen_circle_radius": [
+    0.1,
+    0.18
+  ],
+  "architecture": "16-64-64-40 tanh",
+  "optimizer": "Adam",
+  "learning_rate": 0.002,
+  "empirical_training_time_exponent": 1.0110211434337817
+}

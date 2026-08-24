@@ -1,0 +1,46 @@
+{
+  "experiment": "controlled_spectral",
+  "global_seed": 20260824,
+  "replicates": 10,
+  "input_dimension": 24,
+  "input_variance": "Var(gamma_j)=1/j",
+  "basis_components": 62,
+  "spatial_frequency_range": [
+    1,
+    6
+  ],
+  "temporal_frequency_range": [
+    0,
+    3
+  ],
+  "true_weight_sd": 0.45,
+  "noise_sd": 0.05,
+  "training_functions": 120,
+  "training_observations": 6000,
+  "test_functions": 50,
+  "test_per_support": 400,
+  "training_supports": {
+    "point": 0.0,
+    "small": 0.06,
+    "medium": 0.16,
+    "large": 0.32
+  },
+  "training_support_probabilities": [
+    0.1,
+    0.2,
+    0.3,
+    0.4
+  ],
+  "unseen_circle_radius": [
+    0.1,
+    0.17
+  ],
+  "unseen_union": "two equal 0.10 squares with centers displaced +/-0.16 along s1",
+  "architecture": "24-64-64-62 tanh; mean-field variational final layer; learned Gaussian observation sigma",
+  "prior_sd": 2.0,
+  "epochs": 400,
+  "optimizer": "Adam",
+  "learning_rate": 0.003,
+  "kl_annealing_epochs": 100,
+  "predictive_evaluation": "analytic Gaussian propagation through linear support functional"
+}
