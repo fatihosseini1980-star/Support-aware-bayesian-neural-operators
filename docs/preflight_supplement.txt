@@ -1,6 +1,0 @@
-PDF: supplement.pdf
-Pages: 8
-Encrypted: False
-Openable (PyMuPDF): True
-Likely scanned: False
-XFA present: False
