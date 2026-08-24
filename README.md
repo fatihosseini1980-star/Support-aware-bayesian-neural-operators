@@ -7,8 +7,6 @@ This repository accompanies the manuscript by Fatemeh Hosseini and Omid Karimi. 
 ## Repository layout
 
 ```text
-manuscript/                 Main paper and Supplementary Material
-figures/                    Final vector and raster figures
 code/erie/                  Lake Erie audit and model-fitting scripts
 code/figures/               Figure-generation scripts
 results/erie/               Archived empirical predictions and summaries
