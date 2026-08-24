@@ -1,7 +1,0 @@
-numpy>=2.0,<3
-pandas>=2.2,<3
-scipy>=1.14,<2
-matplotlib>=3.9,<4
-scikit-learn>=1.5,<2
-torch>=2.4
-basemap>=2.0,<3
